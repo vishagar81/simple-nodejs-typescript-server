@@ -1,0 +1,34 @@
+# IDE-specific files and folders
+.idea/
+
+# Terraform files and folders
+.terraform/
+errored.tfstate
+*.auto.tfvars
+
+# Unwanted Yarn and NPM files and folders
+node_modules/
+package-lock.json
+yarn-error.log
+
+# Build output folders
+.webpack/
+.nyc_output/
+.serverless/
+.webpack/
+.build/
+build/
+dist/
+coverage/
+.nyc_output/
+eslint.report.json
+.scannerwork/
+aws-ffc-integration.zip
+dev.sqlite3
+
+# Local configuration
+.env
+.vscode/*
+!.vscode/launch.json
+.local/*
+*.zip
